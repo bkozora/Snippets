@@ -1,0 +1,17 @@
+/*
+Have you ever wanted to retain any of the information .remove() strips from the DOM? The .detach() method is a lot like remove() except that .detach() keeps all jQuery data associated with the removed elements. This is useful when you want to reinsert removed elements into the DOM later.
+*/
+
+//In the below example  
+$("p").click(function(){  
+      $(this).toggleClass("off");  
+    });  
+    var p;  
+    $("button").click(function(){  
+      if ( p ) {  
+        p.appendTo("body");  
+        p = null;  
+      } else {  
+        p = $("p").detach();  
+      }  
+    });

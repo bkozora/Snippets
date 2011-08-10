@@ -1,0 +1,1 @@
+VBoxManage clonehd source.vdi destination.vmdk --format VMDK

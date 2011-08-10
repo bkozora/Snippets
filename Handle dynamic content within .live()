@@ -1,0 +1,7 @@
+/*
+Did you know that using jQuery’s .live() function is more optimal for adding click functions than using .click()? It even handles dynamic content well.
+*/
+
+$(".clickme").live("click", function() {  
+  // Live handler called.  
+});

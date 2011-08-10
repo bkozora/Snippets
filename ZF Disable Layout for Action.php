@@ -1,0 +1,1 @@
+<?php $this->_helper->layout->disableLayout(); ?>

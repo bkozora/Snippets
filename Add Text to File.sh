@@ -1,0 +1,1 @@
+echo 'eval`ssh-agent`' {file}

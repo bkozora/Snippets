@@ -1,0 +1,8 @@
+/*
+Have you ever tried writing a plugin and run into a problem with overriding specific behaviors? In jQuery you can override the values set or retrieved on the data method by binding to getData and setData.Returning a value will set/return a totally different result.
+*/
+
+$("div").bind("getData.value", function()  
+{  
+  return myPlugin.realValue;  
+});
